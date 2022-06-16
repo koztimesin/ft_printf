@@ -6,11 +6,11 @@
 #    By: ksaffron <ksaffron@student.21-school.ru    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/08 17:17:05 by ksaffron          #+#    #+#              #
-#    Updated: 2021/12/09 15:23:18 by ksaffron         ###   ########.fr        #
+#    Updated: 2022/06/16 10:16:19 by ksaffron         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = ft_printf.a
 
 CC = gcc
 
@@ -33,8 +33,8 @@ all:	$(NAME)
 $(NAME):	$(OBJ)
 	ar rcs $(NAME) $?
 
-%.o : %.c libftprintf.h
-	$(CC) $(FLAGS) -c $< -o $@ -I libftprintf.h
+%.o : %.c ft_printf.h
+	$(CC) $(FLAGS) -c $< -o $@ -I ft_printf.h
 
 clean:
 	$(RM) $(OBJ)

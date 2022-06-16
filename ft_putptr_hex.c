@@ -6,11 +6,11 @@
 /*   By: ksaffron <ksaffron@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 19:10:42 by ksaffron          #+#    #+#             */
-/*   Updated: 2021/12/09 19:33:38 by ksaffron         ###   ########.fr       */
+/*   Updated: 2022/06/16 10:15:06 by ksaffron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 static unsigned long	ft_getptr_size(unsigned long n)
 {

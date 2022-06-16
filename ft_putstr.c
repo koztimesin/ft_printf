@@ -6,11 +6,11 @@
 /*   By: ksaffron <ksaffron@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/21 18:31:06 by ksaffron          #+#    #+#             */
-/*   Updated: 2021/12/09 18:27:35 by ksaffron         ###   ########.fr       */
+/*   Updated: 2022/06/16 10:15:09 by ksaffron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_putchar(char c)
 {

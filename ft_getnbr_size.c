@@ -6,11 +6,11 @@
 /*   By: ksaffron <ksaffron@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/08 19:29:18 by ksaffron          #+#    #+#             */
-/*   Updated: 2021/12/09 18:39:30 by ksaffron         ###   ########.fr       */
+/*   Updated: 2022/06/16 10:15:14 by ksaffron         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int	ft_getnbr_size(int n)
 {
